@@ -54,7 +54,6 @@ function App() {
                   <div className={styles.main}>
                     <h1>Update Blog Page</h1>
                   </div>
-
                 }
               />
 
