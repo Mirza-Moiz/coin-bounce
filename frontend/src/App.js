@@ -4,6 +4,7 @@ import Home from './pages/Home/Home';
 import Footer from "./components/Footer/Footer";
 
 import styles from "./App.module.css";
+import Error from "./pages/Error/Error";
 
 function App() {
   return (
@@ -95,9 +96,8 @@ function App() {
               <Route
                 path="*"
                 element={
-                  <div className={styles.main}>
-                    <h1>404 Not Found</h1>
-                  </div>
+                  <Error />
+
                 }
               />
             </Routes>
